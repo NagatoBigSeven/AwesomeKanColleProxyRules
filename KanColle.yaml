@@ -1,0 +1,63 @@
+# https://mihomo.party/docs/guide/override/yaml
++proxy-groups:  # 代理组 / proxy-group / プロクシグループ
+  - { name: DMM, type: select, proxies: [日本01aws, 日本02aws, 日本03aws, 日本05aws, 日本06aws, 日本07aws, 日本08aws] }
++rules:  # 规则 / rule / ルール
+## > DMM
+  - 'DOMAIN-SUFFIX,dmm.com,DMM'
+  - 'DOMAIN-SUFFIX,dmm.co.jp,DMM'
+  - 'DOMAIN-SUFFIX,dmmgames.com,DMM'
+  - 'DOMAIN-SUFFIX,dmm.hk,DMM'
+  - 'DOMAIN-SUFFIX,dmm-extension.com,DMM'
+  - 'DOMAIN-SUFFIX,createjs.com,DMM'
+## > --------------------------
+## > 舰队收藏（砍口垒）/ Fleet Girls Collection (KanColle) / 艦隊これくしょん（艦これ）
+  - 'DOMAIN-SUFFIX,kancolle-server.com,DIRECT'
+  # Unlock
+  - 'IP-CIDR,203.104.209.7/32,DIRECT,no-resolve'
+  # 服务器 / Server / サーバー
+  # 1. 横须贺镇守府 / Yokosuka Naval District / 横須賀鎮守府
+  - 'IP-CIDR,203.104.209.71/32,DIRECT,no-resolve'
+  # 2. 吴镇守府 / Kure Naval District / 呉鎮守府
+  - 'IP-CIDR,203.104.209.87/32,DIRECT,no-resolve'
+  # 3. 佐世保镇守府 / Sasebo Naval District / 佐世保鎮守府
+  - 'IP-CIDR,125.6.184.215/32,DIRECT,no-resolve'
+  # 4. 舞鹤镇守府 / Maizuru Naval District / 舞鶴鎮守府
+  - 'IP-CIDR,203.104.209.183/32,DIRECT,no-resolve'
+  # 5. 大凑警备府 / Oominato Guard District / 大湊警備府
+  - 'IP-CIDR,203.104.209.150/32,DIRECT,no-resolve'
+  # 6. 特鲁克泊地 / Truk Anchorage / トラック泊地
+  - 'IP-CIDR,203.104.209.134/32,DIRECT,no-resolve'
+  # 7. 林加泊地 / Ringa Anchorage / リンガ泊地
+  - 'IP-CIDR,203.104.209.167/32,DIRECT,no-resolve'
+  # 8. 拉包尔基地 / Rabaul Naval Base / ラバウル基地
+  - 'IP-CIDR,203.104.209.199/32,DIRECT,no-resolve'
+  # 9. 肖特兰泊地 / Shortland Anchorage / ショートランド泊地
+  - 'IP-CIDR,125.6.189.7/32,DIRECT,no-resolve'
+  # 10. 布因基地 / Buin Naval Base / ブイン基地
+  - 'IP-CIDR,125.6.189.39/32,DIRECT,no-resolve'
+  # 11. 塔威塔威泊地 / Tawi-Tawi Anchorage / タウイタウイ基地
+  - 'IP-CIDR,125.6.189.71/32,DIRECT,no-resolve'
+  # 12. 帕劳泊地 / Parao Anchorage / パラオ泊地
+  - 'IP-CIDR,125.6.189.103/32,DIRECT,no-resolve'
+  # 13. 文莱泊地 / Burunei Anchorage / ブルネイ泊地
+  - 'IP-CIDR,125.6.189.135/32,DIRECT,no-resolve'
+  # 14. 单冠湾泊地 / Hitokappu Bay Anchorage / 単冠湾泊地
+  - 'IP-CIDR,125.6.189.167/32,DIRECT,no-resolve'
+  # 15. 幌筵泊地 / Paramushiru Anchorage / 幌筵泊地
+  - 'IP-CIDR,125.6.189.215/32,DIRECT,no-resolve'
+  # 16. 宿毛湾泊地 / Sukumo Bay Anchorage / 宿毛湾泊地
+  - 'IP-CIDR,125.6.189.247/32,DIRECT,no-resolve'
+  # 17. 鹿屋基地 / Kanoya Airfield / 鹿屋基地
+  - 'IP-CIDR,203.104.209.23/32,DIRECT,no-resolve'
+  # 18. 岩川基地 / Iwagawa Airfield / 岩川基地
+  - 'IP-CIDR,203.104.209.39/32,DIRECT,no-resolve'
+  # 19. 佐伯湾泊地 / Saiki Bay Anchorage / 佐伯湾泊地
+  - 'IP-CIDR,203.104.209.55/32,DIRECT,no-resolve'
+  # 20. 柱岛泊地 / Hashira Island Anchorage / 柱島泊地
+  - 'IP-CIDR,203.104.209.102/32,DIRECT,no-resolve'
+## > --------------------------
+## > 三方工具 / third-party tools
+  - 'DOMAIN-SUFFIX,tsunkit.net,飞鸟云'  # 曙站 / TsunKit
+  - 'DOMAIN-SUFFIX,akashi-list.me,飞鸟云'  # 明石的改修工厂早见表 / Akashi's Improvement Arsenal Quick Reference Table / 明石の改修工場早見表
+## > --------------------------
+
