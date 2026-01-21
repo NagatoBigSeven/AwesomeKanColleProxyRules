@@ -1,3 +1,7 @@
+# 🖕 田中飞马 | Fuck Kensuke Tanaka | 田中謙介ファック 🖕
+
+---
+
 # AwesomeKanColleProxyRules
 
 [[中文]](#中文) | [[English]](#english) | [[日本語]](#日本語)
