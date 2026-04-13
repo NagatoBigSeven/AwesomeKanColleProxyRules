@@ -1,0 +1,23 @@
+# https://mihomo.party/docs/guide/override/yaml
++rules:  # 规则 / rule / ルール
+## > Bilibili / 哔哩哔哩
+  - 'DOMAIN-SUFFIX,bilibili.com,DIRECT'
+  - 'DOMAIN-SUFFIX,bilibili.tv,DIRECT'
+  - 'DOMAIN-SUFFIX,bilivideo.com,DIRECT'
+  - 'DOMAIN-SUFFIX,bilivideo.cn,DIRECT'
+  - 'DOMAIN-SUFFIX,biliapi.com,DIRECT'
+  - 'DOMAIN-SUFFIX,biliapi.net,DIRECT'
+  - 'DOMAIN-SUFFIX,bilicomic.com,DIRECT'
+  - 'DOMAIN-SUFFIX,biliimg.com,DIRECT'
+  - 'DOMAIN-SUFFIX,biligame.com,DIRECT'
+  - 'DOMAIN-SUFFIX,biligo.com,DIRECT'
+  - 'DOMAIN-SUFFIX,biliintl.com,DIRECT'
+  - 'DOMAIN-SUFFIX,hdslb.com,DIRECT'
+  - 'DOMAIN-SUFFIX,acgvideo.com,DIRECT'
+  - 'DOMAIN-SUFFIX,im9.com,DIRECT'
+## > --------------------------
+## > 明日方舟 / Arknights / アークナイツ
+  - 'DOMAIN-SUFFIX,hypergryph.com,DIRECT'
+  - 'DOMAIN-SUFFIX,arknights.com,DIRECT'
+  - 'DOMAIN-SUFFIX,gryphline.com,DIRECT'
+## > --------------------------
