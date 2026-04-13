@@ -1,0 +1,7 @@
+# https://mihomo.party/docs/guide/override/yaml
++rules:  # 规则 / rule / ルール
+## > 明日方舟 / Arknights / アークナイツ
+  - 'DOMAIN-SUFFIX,hypergryph.com,DIRECT'
+  - 'DOMAIN-SUFFIX,arknights.com,DIRECT'
+  - 'DOMAIN-SUFFIX,gryphline.com,DIRECT'
+## > --------------------------
